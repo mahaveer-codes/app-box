@@ -1,0 +1,28 @@
+.pragraph{
+    font-size: 36px;
+}
+
+.answer-list{
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.answer-item{
+    display: inline-flex;
+    align-items: center;
+
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 50px;
+    gap: 16px;
+    width: 200px;
+}
+
+.answer-item span{
+    line-height: 0;
+}
+
+.answer-item:has(> input[type="radio"]:checked){
+    background-color: aqua;
+}

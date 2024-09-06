@@ -1,0 +1,34 @@
+body {
+   margin: 0; 
+}
+
+.heading {
+    color: rgb(153, 110, 1);
+    text-align: center;
+}
+
+.app-list {
+    padding: 0;
+    margin: 0;
+    padding: 30px;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.app-list-item{
+    background-color: aliceblue;
+    border: 1px solid #b9b9b9;
+    border-radius: 8px;
+}
+
+.app-list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.app-list-item a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #111111;
+    text-shadow: 0 0 10px #2700ffaa;
+}

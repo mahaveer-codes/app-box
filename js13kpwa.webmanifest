@@ -1,0 +1,21 @@
+{
+  "name": "Simple Counter App",
+  "short_name": "Counter",
+  "description": "Simple counter app for increament & decrement.",
+  "icons": [
+    {
+      "src": "./icons/icon512_maskable.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}
